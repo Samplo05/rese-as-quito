@@ -18,7 +18,7 @@ Aquí podrás registrar, visualizar y exportar reseñas de lugares para comer en
 > Reemplaza `tu-usuario` por tu nombre de usuario en GitHub.
 
 ## 📦 Estructura del proyecto
-Proyecto Linguistica/
+Proyecto Linguistica/<p>
 ├── principal.html # Página principal<br>
 ├── style.css # Estilos del sitio<br>
 ├── script.js # Lógica y funciones<br>
