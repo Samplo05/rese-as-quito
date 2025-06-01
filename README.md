@@ -26,7 +26,7 @@ Proyecto Linguistica/<p>
 
 ## 🛠️ Cómo usar
 
-1. Clona este repositorio o descarga el .zip.
+1. Clona este repositorio.
 2. Sube la carpeta a tu repositorio de GitHub.
 3. Ve a "Settings" → "Pages" → elige la rama `main` y raíz `/` para activar GitHub Pages.
 4. ¡Listo! Comparte tu link con el mundo.
