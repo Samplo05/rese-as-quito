@@ -15,7 +15,7 @@ Aquí podrás registrar, visualizar y exportar reseñas de lugares para comer en
 ## 🌐 Demo en GitHub Pages
 
 [🔗 Ver sitio en vivo](https://github.com/Samplo05/rese-as-quito.git)  
-> Reemplaza `tu-usuario` por tu nombre de usuario en GitHub.
+
 
 ## 📦 Estructura del proyecto
 Proyecto Linguistica/<p>
