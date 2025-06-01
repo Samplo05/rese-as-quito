@@ -19,9 +19,9 @@ Aquí podrás registrar, visualizar y exportar reseñas de lugares para comer en
 
 ## 📦 Estructura del proyecto
 Proyecto Linguistica/
-├── principal.html # Página principal
-├── style.css # Estilos del sitio
-├── script.js # Lógica y funciones
+├── principal.html # Página principal<br>
+├── style.css # Estilos del sitio<br>
+├── script.js # Lógica y funciones<br>
 └── imagenes/ # Carpeta para imágenes y logo
 
 ## 🛠️ Cómo usar
