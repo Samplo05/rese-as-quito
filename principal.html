@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	  <meta charset="UTF-8" /><!-- Permite el Uso de la 'Ñ' -->
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabores de Quito - !gnotus</title>
+	  <link rel="stylesheet" href="styles.css" />
+	  <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon" />
+</head>
+<body> 
+	<!-- Animación de carga -->
+	<div id="loader">Cargando reseñas...</div>
+	
+	<!-- Modo Oscuro -->
+	<label class="switch">
+		  <input type="checkbox" id="modoOscuroToggle" />
+		  <span class="slider"></span> 🌙
+	</label>
+	
+  <header>
+	  <img src="imagenes/logo.png" alt="Logo del sitio" id="logo" />
+	  <h1>Recomendaciones para Comer en Quito</h1>
+  </header>
+
+  <main>
+    <!-- Sección de presentación -->
+    <section id="inicio">
+      <h2>Explora los mejores sabores de la ciudad</h2>
+      <p>Descubre lugares increíbles para comer en Quito, con reseñas honestas y recomendaciones locales.</p>
+    </section>
+
+    <!-- Sección de reseñas -->
+    <section id="resenas">
+      <h2>Últimas Reseñas</h2>
+	    <label for="filtroPuntuacion">Filtrar por puntuación mínima:</label>
+		<select id="filtroPuntuacion">
+		  <option value="0">Todas</option>
+		  <option value="3">⭐⭐⭐ o más</option>
+		  <option value="4">⭐⭐⭐⭐ o más</option>
+		  <option value="5">⭐⭐⭐⭐⭐</option>
+		</select>
+      <div class="resenas-contenedor">
+        <!-- Cada reseña individual -->
+        
+        <!-- Más reseñas aquí -->
+      </div>
+    </section>
+
+    <!-- Sección de formulario -->
+    <section id="formulario">
+      <h2>¿Conoces un lugar que debería estar aquí?</h2>
+      <form id="form-recomendacion">
+        <label for="nombreLugar">Nombre del lugar:</label>
+        <input type="text" id="nombreLugar" name="nombreLugar" required />
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required />
+
+        <label for="comentario">¿Qué te gustó del lugar?</label>
+        <textarea id="comentario" name="comentario" required></textarea>
+		
+		<label for="imagenLugar">Imagen del lugar:</label>
+		<input type="file" id="imagenLugar" accept="image/*" />
+
+		
+        <label for="puntuacion">Puntuación:</label>
+        <select id="puntuacion" name="puntuacion">
+          <option value="1">⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+        </select>
+
+        <button type="submit">Enviar recomendación</button>
+      </form>
+	  <button id="exportarJSON">Exportar Reseñas (.json)</button>
+	  <button id="borrarTodo" style="background-color: crimson;">Borrar Todo</button>
+
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tienes preguntas o colaboraciones? Escríbenos a <a href="mailto:samyserbel@gmail.com">samyserbel@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sabores de Quito - Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
